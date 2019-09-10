@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css">
+
+    <title>New Car</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="form-group">
+              <label for="car_model">Car Model:</label>
+              <input type="text" class="form-control" id="car_model" aria-describedby="car_model_name" placeholder="Enter car">
+              <small id="car_model_name" class="form-text text-muted">Think of the snazziest car you can</small>
+            </div>
+            <div class="form-group">
+              <label for="car_color">Car Color:</label>
+              <input type="text" class="form-control" id="car_color" placeholder="Car Color">
+            </div>
+            <div class="form-group">
+              <label for="car_image">Image:</label>
+              <input type="file" class="form-control btn btn-info" id="car_image" accept="image/*">
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+
+    </div>
+</body>
+</html>
